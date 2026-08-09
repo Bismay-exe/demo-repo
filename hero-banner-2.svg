@@ -1,0 +1,48 @@
+<svg width="1000" height="500" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="photoClip">
+      <rect x="430" y="60" width="380" height="440"/>
+    </clipPath>
+  </defs>
+
+  <!-- base -->
+  <rect width="1000" height="500" fill="#E4402C"/>
+
+  <!-- photo, desaturated/high-contrast, bleeding off right edge -->
+  <g clip-path="url(#photoClip)">
+    <image href="https://picsum.photos/id/1012/500/600" x="430" y="40" width="420" height="480"
+      style="filter:grayscale(1) contrast(1.2)"/>
+    <rect x="430" y="60" width="380" height="440" fill="#E4402C" opacity="0.28"/>
+  </g>
+
+  <!-- top meta row -->
+  <text x="40" y="42" font-family="IBM Plex Mono, monospace" font-weight="600" font-size="14" fill="#FFFFFF" letter-spacing="1">MADE BY</text>
+  <text x="820" y="42" font-family="IBM Plex Mono, monospace" font-weight="600" font-size="14" fill="#FFFFFF" letter-spacing="1">2026 / DEV</text>
+  <text x="820" y="66" font-family="IBM Plex Mono, monospace" font-size="12" fill="#FFFFFF" opacity="0.85">frontend.build</text>
+
+  <!-- huge overlapping poster type -->
+  <text x="34" y="150" font-family="Arial Black, sans-serif" font-weight="900" font-size="108" fill="#FFFFFF" letter-spacing="-3">BISMAY</text>
+  <text x="34" y="150" font-family="Arial Black, sans-serif" font-weight="900" font-size="108" fill="none" stroke="#FFFFFF" stroke-width="1.5" letter-spacing="-3" opacity="0.5">BISMAY</text>
+
+  <text x="34" y="248" font-family="Arial Black, sans-serif" font-weight="900" font-size="108" fill="#15130F" letter-spacing="-3">BUILDS</text>
+
+  <text x="34" y="346" font-family="Arial Black, sans-serif" font-weight="900" font-size="108" fill="#FFFFFF" letter-spacing="-3">CLEAN</text>
+
+  <!-- red accent block, poster-style -->
+  <rect x="34" y="368" width="46" height="46" fill="#15130F"/>
+  <text x="96" y="404" font-family="Arial Black, sans-serif" font-weight="900" font-size="70" fill="#FFFFFF" letter-spacing="-2">UI'S.</text>
+
+  <!-- plus marks, poster texture detail -->
+  <text x="10" y="220" font-family="Arial Black, sans-serif" font-size="30" fill="#15130F">+</text>
+  <text x="770" y="120" font-family="Arial Black, sans-serif" font-size="30" fill="#FFFFFF">+</text>
+
+  <!-- bottom description line -->
+  <text x="34" y="460" font-family="IBM Plex Mono, monospace" font-size="14" fill="#FFFFFF" letter-spacing="0.3">
+    <tspan x="34" dy="0">frontend developer building fast, considered interfaces —</tspan>
+    <tspan x="34" dy="20">clean systems over decoration. based in bhubaneswar, in.</tspan>
+  </text>
+
+  <!-- bottom right corner mark -->
+  <circle cx="965" cy="470" r="14" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="965" y="475" font-family="Arial Black, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">B</text>
+</svg>
