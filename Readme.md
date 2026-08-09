@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://postimg.cc/pytCmbKy">
-    <img src="https://i.postimg.cc/T2K4HTwj/2ede7b2dc3b86f162d05817aed376b73.jpg" width="100%" alt="Banner"/>
+    <img src="./banner-nobg.png" width="100%" alt="Banner"/>
   </a>
 </div>
 
@@ -32,7 +32,7 @@
     </td>
     <td align="center" valign="middle" width="30%">
       <a href="https://postimg.cc/NyFKLkth">
-        <img src="https://i.postimg.cc/YSfYndyS/20260612-021944.png" width="220" alt="About Me Portrait"/>
+        <img src="./hand-container.png" width="220" alt="About Me Portrait"/>
       </a>
     </td>
   </tr>
