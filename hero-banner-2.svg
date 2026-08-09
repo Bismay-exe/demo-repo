@@ -10,7 +10,7 @@
 
   <!-- photo, desaturated/high-contrast, bleeding off right edge -->
   <g clip-path="url(#photoClip)">
-    <image href="https://picsum.photos/id/1012/500/600" x="430" y="40" width="420" height="480"
+    <image href="https://raw.githubusercontent.com/Bismay-exe/demo-repo/refs/heads/main/me4.png" x="430" y="40" width="420" height="480"
       style="filter:grayscale(1) contrast(1.2)"/>
     <rect x="430" y="60" width="380" height="440" fill="#E4402C" opacity="0.28"/>
   </g>
