@@ -1,8 +1,8 @@
-<div align="center">
-  <a href="https://postimg.cc/pytCmbKy">
-    <img src="./banner-nobg.png" width="100%" alt="Banner"/>
-  </a>
-</div>
+<table align="center">
+  <td style="border: 2px solid #ffffff;">
+    <img src="./banner-nobg.png" width="100%" alt="Banner" style="border: 2px solid #ffffff;"/>
+  </td>
+</table>
 
 <br>
 
